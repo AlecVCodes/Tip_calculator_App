@@ -137,7 +137,7 @@ input[type="number"] {
   transition: all 200ms ease;
 }
 
-.tip-option:not(:last-of-type) {
+.tip-option {
   padding: 1rem;
   border: none;
   background-color: var(--green-900);
@@ -148,7 +148,7 @@ input[type="number"] {
   font-weight: bold;
 }
 
-.tip-option:last-of-type {
+#custom-input {
   padding: 1rem;
   border: none;
   background-color: var(--grey-50);
