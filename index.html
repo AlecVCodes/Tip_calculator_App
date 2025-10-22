@@ -35,7 +35,7 @@
             ><button aria-label="Select 50 percent tip" class="tip-option">50%</button
             >
             <label for="custom-input" class="visually-hidden">Custom tip amount</label>
-            <input  id="custom-input" type="text" placeholder="Custom" class="tip-option" aria-describedby="custom-tip-desc">
+            <input class="tip-option" id="custom-input" type="text" placeholder="Custom" class="tip-option" aria-describedby="custom-tip-desc" min="0" inputmode="decmial" pattern="[0-9]*">
             <span id="custom-tip-desc" class="visually-hidden">Enter a custom tip amount in dollars</span>
           </div>
         </div>
