@@ -61,7 +61,8 @@ body {
   padding: 0;
 }
 
-h2 {
+h2,
+label {
   font-size: 1rem;
 }
 
@@ -93,6 +94,13 @@ h2 {
   margin-top: 2rem;
 }
 
+.calculator-label {
+  color: var(--grey-500);
+  margin-bottom: 1rem;
+  margin-top: 5rem;
+  font-weight: bold;
+}
+
 /* user inputs */
 
 .input-wrapper {
@@ -102,6 +110,7 @@ h2 {
   justify-content: space-between;
   padding: 1rem;
   border-radius: 5px;
+  margin-top: 1rem;
 }
 
 .calculation-input::placeholder {

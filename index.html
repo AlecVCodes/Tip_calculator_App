@@ -15,7 +15,7 @@
       <section class="calculation-section" id="calculation-section">
         <div class="bill-amount-container">
 
-          <h2 aria-label="Bill title" class="calculator-title">Bill</h2>
+          <label for="user-bill-input" class="calculator-label">Bill</label>
           <div class="input-wrapper">          <svg xmlns="http://www.w3.org/2000/svg" width="11" height="17">
             <path
               fill="#9EBBBD"
@@ -28,14 +28,14 @@
         <div class="select-tip-container">
           <h2 aria-label="Choose tip title" class="calculator-title">Select Tip %</h2>
           <div class="select-tip-grid">
-            <button aria-label="5% tip" class="tip-option">5%</button
-            ><button aria-label="10% tip" class="tip-option">10%</button
-            ><button aria-label="15% tip" class="tip-option">15%</button
-            ><button aria-label="25% tip" class="tip-option">25%</button
-            ><button aria-label="50% tip" class="tip-option">50%</button
+            <button aria-label="Select 5 percent tip" class="tip-option">5%</button
+            ><button aria-label="Select 10 percent tip" class="tip-option">10%</button
+            ><button aria-label="Select 15 percent tip" class="tip-option">15%</button
+            ><button aria-label="Select 25 percent tip" class="tip-option">25%</button
+            ><button aria-label="Select 50 percent tip" class="tip-option">50%</button
             >
             <label for="custom-input" class="visually-hidden">Custom tip amount</label>
-            <input aria-label="custom tip amount" id="custom-input" type="text" placeholder="Custom" class="tip-option" aria-describedby="custom-tip-desc">
+            <input  id="custom-input" type="text" placeholder="Custom" class="tip-option" aria-describedby="custom-tip-desc">
             <span id="custom-tip-desc" class="visually-hidden">Enter a custom tip amount in dollars</span>
           </div>
         </div>
