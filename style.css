@@ -49,6 +49,18 @@ body {
 
 /* typography */
 
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+}
+
 h2 {
   font-size: 1rem;
 }
@@ -56,10 +68,6 @@ h2 {
 .person-span {
   font-size: 0.813rem;
   color: var(--grey-400);
-}
-
-.calculator-title {
-  color: var(--grey-500);
 }
 
 .result-title {
@@ -80,6 +88,7 @@ h2 {
 /* calculation section */
 
 .calculator-title {
+  color: var(--grey-500);
   margin-bottom: 1rem;
   margin-top: 2rem;
 }
