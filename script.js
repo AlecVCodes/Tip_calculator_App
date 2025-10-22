@@ -141,6 +141,10 @@ function updateResults(totalTipAmountPerPerson, totalAmountPerPerson) {
 
   //make reset button enabled
   resetValuesBtn.classList.remove("disabled");
+
+  //remove disabled label for screen readers
+
+  resetValuesBtn.setAttribute("aria-disabled", "false");
 }
 
 // Reset UI
@@ -163,6 +167,8 @@ function resetUI() {
   // reset the rest button back to disabled
   resetValuesBtn.classList.add("disabled");
 
+  // add disbaled attribute back to reset button for screen readers
+  resetValuesBtn.setAttribute("aria-disabled", "true");
   //reset user inputs
   billInputField.value = "";
   customTipInput.value = "";

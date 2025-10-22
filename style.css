@@ -173,6 +173,11 @@ input[type="number"] {
   color: var(--green-900);
 }
 
+.tip-option:focus {
+  background-color: var(--green-200);
+  outline: none;
+}
+
 .tip-option.active {
   background-color: var(--green-400);
   color: var(--green-900);
